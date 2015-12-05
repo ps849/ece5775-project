@@ -113,8 +113,8 @@ int readPgm()
 	long int position;
         int height, width, maxgrey;
 
-	in_file = fopen("face3.pgm", "r");
-        out_file = fopen("image_data3.h","w");
+	in_file = fopen("test.pgm", "r");
+        out_file = fopen("image_test.h","w");
         
 	if (in_file == NULL)
 	{
