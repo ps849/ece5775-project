@@ -40,7 +40,7 @@ int main ( int argc, char *argv[] )
   MyInputImage imageObj;
   MyInputImage *image = &imageObj;
 //------------------------------------------------------------
-  #include "image_data3.h" // Include image file here
+  #include "image_test.h" // Include image file here
 //------------------------------------------------------------
   image->flag =in_flag;
   image->width = in_width;

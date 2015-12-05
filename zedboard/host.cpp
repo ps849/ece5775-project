@@ -55,7 +55,7 @@ int main ( int argc, char *argv[] )
   MyInputImage imageObj;
   MyInputImage *image = &imageObj;
 
-  #include "image_data3.h" // image file
+  #include "image_test.h" // image file
  
   image->flag =in_flag;
   image->width = in_width;
