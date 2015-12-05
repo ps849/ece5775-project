@@ -10,13 +10,9 @@
 
 HEADERS := image.h haar.h stdio-wrapper.h
 
+INC_PATH=/usr/include/vivado_hls/2015.2
+CFLAGS = -I${INC_PATH}
 
-
-# Extract Vivado HLS include path
-VHLS_PATH := $(dir $(shell which vivado_hls))/..
-VHLS_INC ?= ${VHLS_PATH}/include
-
-CFLAGS = -g -I${VHLS_INC}
 
 
 sw: facedetect.cpp facedetect_test.cpp image.cpp stdio-wrapper.cpp rectangles.cpp
