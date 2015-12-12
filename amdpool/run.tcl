@@ -28,8 +28,8 @@ config_rtl -reset state
 # Simulate the C++ design
  csim_design
 # Synthesize the design
-#csynth_design
+csynth_design
 # Co-simulate the design
-#cosim_design
+cosim_design
 
 exit
