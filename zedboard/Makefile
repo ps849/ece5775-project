@@ -2,11 +2,12 @@
 # Makefile
 #==========================================================================
 # @brief: A makefile the compiles and runs the facedetect program
-#
+# 
 # @desc: 1. "make" or "make sw" runs software execution by default
 #        2. "make fpga" invokes the detectObjects HW accelerator
 #        3. "make clean" cleans up the directory
-
+# Note:  1. This has to be run on the fpga.
+#        2. FPGA has to be configured with the bitstream before running "make fpga"
 
 HEADERS := image.h haar.h stdio-wrapper.h
 
